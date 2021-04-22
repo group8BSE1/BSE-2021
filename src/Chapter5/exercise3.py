@@ -44,6 +44,7 @@ def updateStock(upDate_nickles, upDate_dimes, upDate_quarters, upDate_oneDollar,
     global one_dollar
     global five_dollar
 
+
     #assigning the stock new values
     nickels = nickels + upDate_nickles
     dimes = dimes + upDate_dimes
