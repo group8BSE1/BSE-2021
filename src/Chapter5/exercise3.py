@@ -24,6 +24,7 @@ def stock_contains(n_value, d_value, q_value, o_value, f_value):
     print(f'{o_value} -- one dollar bill')
     print(f'{f_value} -- five dollar bill')
 
+
 print('WELCOME TO THE VENDING CHANGE MACHINE!\n')
 print('CURRENT STOCK CONTAINS>\n')
 stock_contains(nickels, dimes, quarters, one_dollar, five_dollar)
