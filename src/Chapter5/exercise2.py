@@ -11,6 +11,7 @@ while True:
         numberList.append(input_number)
     except ValueError:
         print('Invalid input')
+        
        
 if numberList:
     print('Maximum: ', max(numberList) or None)
